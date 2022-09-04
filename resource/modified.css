@@ -1,0 +1,123 @@
+body {
+    /*   加入背景图片*/
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    /*    设置图片充满窗口*/
+    background-size: 100% 100%;
+    /*    设置图片定位为相对定位*/
+    background-attachment: fixed;
+
+
+}
+#login {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -246px;
+    /*为login添加底色*/
+    background-color: #BCCCE7;
+    /*    透明度*/
+    opacity: 0.8;
+    /*    增加内部边距*/
+    padding: 20px;
+    padding-top: 70px;
+    padding-left: 80px;
+;
+
+
+
+}
+/*设置H1的位置*/
+#login h1 {
+    position: absolute;
+    top: -10px;
+    left: 180px;
+    font-size: 30px;
+    color:#347ACB;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+#login input {
+    width:80%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 5px;
+    /*    设置外边距*/
+}
+/*将登录和注册并列放置*/
+#login input[type="button"] {
+    /*上外边距*/
+    margin-top: 20px;
+    width: 30%;
+    background: #00a2ca;
+    color: #fff;
+    cursor: pointer;
+
+}
+/*    改变注册按钮的位置*/
+#login input[type="button"][name="register"]{
+    margin-left:21%;
+}
+
+/*改变fa图标位置*/
+#login .fa-user {
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    color: #00a2ca;
+    font-size: 30px;
+}
+#login .fa-key{
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    color: #00a2ca;
+    font-size: 30px;
+}
+
+
+
+/*    改变登录按钮的位置*/
+#show p{
+    color: white;
+    /*    加粗*/
+    font-weight: bold;
+    /*    居中*/
+    text-align: center;
+    /*    向下移动*/
+    margin-top: 100px;
+    /*    设置字体大小*/
+    font-size: 25px;
+/*    定位*/
+    position: fixed;
+/*    居中*/
+    left: 50%;
+/*    向右移动*/
+    margin-left: -235px;
+}
+/*改变footer的位置*/
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #BCCCE7;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 10px;
+    color: #fff;
+    font-size: 12px;
+/*    加粗*/
+    font-weight: bold;
+}
+
+
+
+
+
